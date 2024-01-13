@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>MLBB Survey Form</title>
+  </head>
+  <body>
+    <main>
+        <h1 id="title">Information Survey Form</h1>
+        <p id="description">Fill up the form if you to be friend with James</p>
+
+        <div class="form">
+            <form id="survey-form">
+                <fieldset>
+                <div class="firstDiv">
+                    <label for="name" id="name-label" class="text"> Name
+                        <input type="text" 
+                                id="name"   
+                                required                 
+                                placeholder="Enter your name"/>
+                    </label>
+
+                    <label for="email" id="email-label"  class="text">Email
+                        <input type="email" 
+                                id="email"   
+                                required
+                                placeholder="Enter your Email"/>
+                    </label>
+
+                    <label for="name" id="number-label"  class="text">Age
+                        <input type="number" 
+                                pattern=[0-9]
+                                min="1"
+                                max="90"
+                                id="number"
+                                required                    
+                                placeholder="Age"/>
+                    </label>
+
+                    <label  class="text">Favorite Game?
+                        <select id="dropdown" required>
+                        <option value="" hidden>Select one</option>
+                        <option value="minecraft">Minecraft</option>
+                        <option value="valorant">Valorant</option>
+                        <option value="roblox">Roblox</option>
+                        <option value="lol">League of Legens</option>
+                        <option value="lethal">Lethal Company</option>
+                        <option value="others">Others</option>
+                        </select>
+                    </label>
+                </div>
+                
+                <div class="division">
+                    <p class ="question">What are your connection to him?</p>
+
+                    <div class="radios">
+                        <label>
+                            <input type="radio" 
+                                    name="pick"
+                                    value="Yes"
+                                    class="inline"/>Friend
+                        </label>
+
+                        <label>
+                            <input type="radio" 
+                                    name="pick"
+                                    value="No"
+                                    class="inline"/>Friend of a friend
+                        </label>
+
+                        <label>
+                            <input type="radio" 
+                                    name="pick"
+                                    value="Maybe"
+                                    class="inline"/>Knows eachother
+                        </label>
+                    </div>
+                </div>
+
+                <div class="division second">
+                    <p class ="question">What are your qualities?</p>
+
+                    <div class="qualities">
+                        <label>
+                            <input type="checkbox" 
+                                    value="roam"
+                                    class="inline">Friendly
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="exp"
+                                    class="inline">Confident
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="jungle"
+                                    class="inline">Loyal
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="mid"
+                                    class="inline">Curious
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="mid"
+                                    class="inline">responsible
+                        </label>
+                    </div><div class="qualities">
+                        <label>
+                            <input type="checkbox" 
+                                    value="gold"
+                                    class="inline">Teamwork
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="gold"
+                                    class="inline">Adventurous
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="gold"
+                                    class="inline">Calm
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="gold"
+                                    class="inline">Humble
+                        </label>
+
+                        <label>
+                            <input type="checkbox" 
+                                    value="gold"
+                                    class="inline">Flexible
+                        </label>
+                    </div>
+                </div>
+                <div class="division">
+                    <label> Why do you think you could be friend with James?
+                        <textarea></textarea>
+                    <label>  
+                </div>
+                <input type="submit" id="submit">
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <h2>JAMIS Project</h2>
+        <p>Email: jamesosamson322@gmail.com</p>
+
+        <p>
+            This form is the first self project that I made. Thanks with the help of FreeCodeCamp
+            to guide and learn me on my journey to start on website making.
+            <br><br>
+            FreeCodeCamp: <a href="https://www.freecodecamp.org" target="_blank">freecodecamp.org</a>
+
+        </p>
+        <div>
+            <h4>Social Medias</h4>
+            <label for="facebook">
+                <a href="https://www.facebook.com/profile.php?id=100055590050318" target="_blank" id="facebook" >
+                    <img src="assets/img/facebook-icon.png" width="20">Facebook
+                </a>
+            </label>
+
+            <label for="instagram">
+                <a href="https://www.instagram.com/jamiskrzy/" target="_blank" id="instagram" >
+                    <img src="assets/img/Instagram-icon.png" width="20">Instagram
+                </a>
+            </label>
+
+            <label for="linkedin">
+                <a href="https://www.linkedin.com/in/james-samson-8aa54124b/" target="_blank" id="linkedin" >
+                    <img src="assets/img/LinkedIn-icon.png" width="20">LinkedIn
+                </a>
+            </label>
+
+            <label for="github">
+                <a href="https://github.com/JamIsKrZy" target="_blank" id="github" >
+                    <img src="assets/img/Github-icon.png" width="20">Github
+                </a>
+            </label>
+        </div>
+
+        <div>
+            <h4>Other Projects</h4>
+
+            <label for="musicplayer">
+                <a href="https://github.com/JamIsKrZy/MusicPlayerApp" target="_blank" id="musicplayer" >
+                    Music Player - Java
+                </a>
+            </label>
+
+            <label for="parkteract">
+                <a href="https://github.com/JamIsKrZy/MusicPlayerApp" target="_blank" id="parkteract" >
+                    Parkteract - Java
+                </a>
+            </label>
+
+            <label for="ICT Proj">
+                <a href="https://github.com/JamIsKrZy/MusicPlayerApp" target="_blank" id="ICT Proj" >
+                    ProgrammingJourney - Html & CSS
+                </a>
+            </label>
+        </div>
+    </footer>
+  </body>
+</html>
